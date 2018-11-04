@@ -1,0 +1,12 @@
+1. Buka Termux di android
+2. ketik apt-get install nmap
+3. apt-get update
+4. apt-get upgrade
+5. pkg install git
+6. apt-get install python3
+7. git clone https://github.com/SH4D0W1160/ShadowSploit.git
+8. Ganti folder, ketik : cd ShadowSploit
+9. Scan semua IP dan Port pengguna wifi dengan nmap, ketik : nmap 192.168.1.1/24
+11. ketik : python3 shadow.py
+10. Jalankan ShadowSploit, ketik : python3 shadow.py -s IP_target -p Port_target -t 135
+    Contoh : python3 shadow.py -s 192.168.0.1 -p 80 -t 135
